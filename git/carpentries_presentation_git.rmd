@@ -149,16 +149,6 @@ Hint: think a bit about how you created an exception with the ! operator before.
 ``results/*               # ignore everything in results folder``\
 ``!results/data/          # do not ignore results/data/ contents``
 
-
-
-# Public key encryption
-
-
-\center
-\includegraphics[height=0.8\textheight, keepaspectratio]{figures/Public_key_encryption.svg.png}
-
-(Source: wikipedia)
-
 # Episode 9: A Typical Worksession
 
 Put the following actions in order, and give the commands needed to achieve the action:
