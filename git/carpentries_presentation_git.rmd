@@ -9,23 +9,23 @@ classoption: "aspectratio=169"
 
 # Program
 
-| Time | Item |
+| Time | Activity |
 |---|---|
-| 9:30 | Intro & Recap |
-| 9:45 | 6. Ignoring Things |
-| 9:50 | 7. Remotes in GitHub |
-| 10:35 | Coffee Break |
-| 10:50 | 8. Collaborating |
-| 11:15 | 9. Conflicts |
-| 11:30 | Lunch Break |
-| 12:30 | Git in practice |
-| 13:00 | Reflection |
-| 13:30 | WEEKEND |
+| 09:30 | Intro and Recap |
+| 09:45 | Exploring history |
+| 10:10 | Ignoring Things |
+| 10:15 | GitHub |
+| 10:30 | Coffee Break |
+| 10:45 | Collaborating |
+| 11:10 | Conflicts |
+| 11:25 | Branches |
+| 12:00 | Lunch Break |
+| 13:00 | Git in practice |
+| 13:30 | Reflection |
+| 14:00 | WEEKEND |
 
 
 ----
-
-
 
 \center
 \includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{figures/phdcomics_versioning.png}
@@ -52,19 +52,6 @@ E.g.
 >- ``git status``
 >- ``git commit -m "add myfile"``
 >- ``git log``
-
-# More Git commands
-
->- ``git commit --help``
->- ``git checkout 5d34bf1 myfile.txt``
->- ``git checkout 5d34bf1``
->- ``git checkout HEAD myfile.txt``
->- ``git revert 5d34bf1``
-
-----
-
-
-
 
 
 # Episode 5: Recovering Older Versions of a File
@@ -174,16 +161,33 @@ order & action                    & command                                     
 \end{tabular}
 \end{table}
 
+
+# Open Science
+
+- Git and GitHub are great for transparency: every one can see the work you have done.
+- But: it may not be the best for scientific archiving. (Is your repo guaranteed to be accessible for 10 years?)
+- Use the OSF to archive github repos, and get a DOI
+
+
 # Git in Practice
 
 - I am a big fan!
-- Great way to be transparent
+- It declutters your hard drive (and head) by removing the need to keep track of versions
 - GitHub can be linked to OSF and Zenodo
 - No need to use command line
 
 
+# Example repos
+
+[https://github.com/utrechtuniversity/dataprivacyhandbook](https://github.com/utrechtuniversity/dataprivacyhandbook)
+
+[https://github.com/kleuveld/rerc_selfcheck_overview](https://github.com/kleuveld/rerc_selfcheck_overview)
+
+[https://github.com/tpronk/splithalfr](https://github.com/tpronk/splithalfr) ([website](https://research-software-directory.org/software/splithalfr))
+
+
 # Reflection
 
-- What would you like to do with git?
 - What do like about git?
 - What don't you like about git?
+- Do you think you will be using git? What for?
